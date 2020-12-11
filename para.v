@@ -15,6 +15,15 @@
 `define	ROW 		16
 `define	COL 		256
 
+`define ALL_FSM_IDLE   7'b0000000
+//TOP SECTION FINITE STATE MACHINES
+`define ACTIVATE_TOP_FSM0  7'b0000001
+`define ACTIVATE_TOP_FSM1  7'b0000010
+`define ACTIVATE_TOP_FSM2  7'b0000100
+//MIDDLE SECTION FINITE STATE MACHINES
+`define ACTIVATE_MIDDLE_FSM0  7'b0001000
+`define ACTIVATE_MIDDLE_FSM1  7'b0010000
+
 // =======================
 // Test Bench
 // =======================
